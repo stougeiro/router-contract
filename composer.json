@@ -1,0 +1,52 @@
+{
+    "name": "stougeiro/router-contract",
+    "description": "Minimal, declarative and performance-first routing contracts for PHP. Provides clean interfaces for route collections, route resolution and router matching, enabling modular and framework-agnostic routing architectures.",
+    "type": "library",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "stougeiro",
+            "email": "sidneytougeiro@gmail.com"
+        }
+    ],
+    "keywords": [
+        "router",
+        "routing",
+        "route",
+        "route-collection",
+        "route-matching",
+        "http",
+        "psr",
+        "psr-7",
+        "request-handler",
+        "contract",
+        "interface",
+        "framework-agnostic",
+        "declarative-routing",
+        "modular-routing"
+    ],
+    "support": {
+        "issues": "https://github.com/stougeiro/router-contract/issues",
+        "source": "https://github.com/stougeiro/router-contract"
+    },
+    "funding": [
+        {
+            "type": "buymeacoffee",
+            "url": "https://www.buymeacoffee.com/stougeiro"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "STDW\\Contract\\Http\\Router\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "stougeiro/http-contract": "^4.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.2"
+    }
+}
