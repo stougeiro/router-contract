@@ -5,7 +5,7 @@
     use STDW\Contract\Http\RequestInterface;
 
 
-    interface RouteInterface
+    interface RouterInterface
     {
         /**
          * @param RequestInterface $request 
