@@ -5,11 +5,29 @@
 
     interface RouteInterface
     {
-        /** @return string 
+        /** @return string
+         */
+        public function getUri(): string;
+
+        /** @return string
+         */
+        public function getMap(): string;
+
+        /** @return string
          */
         public function getController(): string;
 
-        /** @return array<string, mixed> 
+        /** @return array<string, string>
          */
         public function getVariables(): array;
+
+        /**
+         * @return array{
+         *   uri: string,
+         *   map: string,
+         *   controller: string,
+         *   variables: array<string, mixed>
+         * }
+         */
+        public function getData(): array;
     }

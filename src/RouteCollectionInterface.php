@@ -13,10 +13,10 @@
 
         /**
          * @param string $name 
-         * @param array<string, mixed> $vars 
+         * @param array<string, string> $vars 
          * @return string 
          */
-        public function get(string $name, array $vars = []): string;
+        public function generate(string $name, array $vars = []): string;
 
         /** @return array<string, string>
          */
