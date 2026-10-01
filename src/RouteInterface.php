@@ -17,7 +17,7 @@
          */
         public function getController(): string;
 
-        /** @return array<string, string>
+        /** @return array<string, mixed>
          */
         public function getVariables(): array;
 

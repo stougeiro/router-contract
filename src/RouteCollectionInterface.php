@@ -13,12 +13,12 @@
 
         /**
          * @param string $name 
-         * @param array<string, string> $vars 
+         * @param array<string, mixed> $vars 
          * @return string 
          */
         public function generate(string $name, array $vars = []): string;
 
-        /** @return array<string, string>
+        /** @return array<string, mixed>
          */
         public function all(): array;
     }
